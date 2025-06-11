@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Instagram Bio Generator",
+    "url": "/social/instagram-bio-generator",
+    "description": "Create unique and engaging bios for your Instagram profile"
+  },
+
+   {
+    "name": "Facebook Bio Generator",
+    "url": "/social/facebook-bio-generator",
+    "description": "Create unique and engaging bios for your Facebook profile"
+  },
+
+     {
+    "name": "Twitter Bio Generator",
+    "url": "/social/twitter-bio-generator",
+    "description": "Create unique and engaging bios for your Twitter profile"
+  }
+
+
+]

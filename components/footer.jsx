@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Footer() {
     return (
-        <footer className="bg-purple-900 text-white border-t border-gray-200 py-12">
+        <footer className="bg-gray-900 text-white border-t border-gray-200 py-12">
             <div className="container mx-auto px-4">
                 {/* Three-column layout */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
@@ -14,19 +14,19 @@ export default function Footer() {
                             Our suite of tools helps you create, edit, and optimize content with the power of artificial intelligence.
                         </p>
                         <div className="flex items-center gap-4">
-                            <Link href="#" className="text-gray-400 hover:text-white">
+                            <Link href="https://linkedin.com/deeptools" className="text-gray-400 hover:text-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                     <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
                                     <rect x="2" y="9" width="4" height="12"></rect>
                                     <circle cx="4" cy="4" r="2"></circle>
                                 </svg>
                             </Link>
-                            <Link href="#" className="text-gray-400 hover:text-white">
+                            <Link href="https://x.com/deeptools" className="text-gray-400 hover:text-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                     <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
                                 </svg>
                             </Link>
-                            <Link href="#" className="text-gray-400 hover:text-white">
+                            <Link href="https://instagram.com/deeptools" className="text-gray-400 hover:text-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                     <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                                     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
@@ -41,30 +41,31 @@ export default function Footer() {
                         <h3 className="text-lg font-semibold  mb-4">Useful Links</h3>
                         <ul className="space-y-2">
                             <li>
-                                <Link href="/tools" className="text-sm  text-gray-400 hover:text-white transition-colors duration-200">
-                                    All Tools
+                                <Link href="/" className="text-sm  text-gray-400 hover:text-white transition-colors duration-200">
+                                    Home
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/blog" className="text-sm  text-gray-400 hover:text-white transition-colors duration-200">
-                                    Blog
+                                <Link href="/about" className="text-sm  text-gray-400 hover:text-white transition-colors duration-200">
+                                    About
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/tutorials" className="text-sm  text-gray-400 hover:text-white transition-colors duration-200">
-                                    Tutorials
+                                <Link href="/contact" className="text-sm  text-gray-400 hover:text-white transition-colors duration-200">
+                                    Contact
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/pricing" className="text-sm  text-gray-400 hover:text-white transition-colors duration-200">
-                                    Pricing
+                                <Link href="/privacy-policy" className="text-sm  text-gray-400 hover:text-white transition-colors duration-200">
+                                    Privacy Policy
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/faq" className="text-sm  text-gray-400 hover:text-white transition-colors duration-200">
-                                    FAQ
+                                <Link href="/terms" className="text-sm  text-gray-400 hover:text-white transition-colors duration-200">
+                                    Terms of Service
                                 </Link>
                             </li>
+
                         </ul>
                     </div>
 
@@ -94,7 +95,7 @@ export default function Footer() {
                     <p className="text-sm text-gray-300">
                         © {new Date().getFullYear()} DeepTools.Org. All rights reserved.
                     </p>
-                    <div className="flex gap-6 mt-4 md:mt-0">
+                    {/* <div className="flex gap-6 mt-4 md:mt-0">
                         <Link href="/about" className="text-sm text-gray-300 hover:text-white transition-colors duration-200">
                             About
                         </Link>
@@ -104,7 +105,7 @@ export default function Footer() {
                         <Link href="/contact" className="text-sm text-gray-300 hover:text-white transition-colors duration-200">
                             Contact
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
 
 

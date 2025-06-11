@@ -11,9 +11,9 @@ export const metadata = {
         canonical: "/instagram-bio-generator",
     },
     openGraph: {
-        title: "Instagram Bio Generator - Create Stylish Bios Online - DeepTools.org",
+        title: "Instagram Bio Generator - Create Stylish Bios Online",
         description: "Craft the perfect Instagram bio with our free online generator.",
-        url: "https://deeptools.org/instagram-bio-generator",
+        url: "https://deeptools.org/social/instagram-bio-generator",
         images: [
             {
                 url: "/assets/social.jpg",
@@ -25,7 +25,7 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Instagram Bio Generator - Create Stylish Bios Online - DeepTools.org",
+        title: "Instagram Bio Generator - Create Stylish Bios Online",
         description: "Generate creative and catchy Instagram bios effortlessly.",
         images: ["/assets/social.jpg"],
     },

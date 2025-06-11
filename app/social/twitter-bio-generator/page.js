@@ -1,7 +1,7 @@
 import TwitterBioGenerator from "./Twitter";
 
 export const metadata = {
-    title: "Twitter Bio Generator | Create Engaging Twitter Bios - DeepTools.org",
+    title: "Twitter Bio Generator | Create Engaging Twitter Bios",
     description:
         "Craft witty, professional, or creative Twitter bios with our free online Twitter Bio Generator tool at DeepTools.org.",
     keywords:
@@ -11,9 +11,9 @@ export const metadata = {
         canonical: "/twitter-bio-generator",
     },
     openGraph: {
-        title: "Twitter Bio Generator - Create Engaging Bios - DeepTools.org",
+        title: "Twitter Bio Generator - Create Engaging Bios",
         description: "Generate compelling Twitter bios for personal or professional use with ease.",
-        url: "https://deeptools.org/twitter-bio-generator",
+        url: "https://deeptools.org/social/twitter-bio-generator",
         images: [
             {
                 url: "/assets/social.jpg",
@@ -25,7 +25,7 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Twitter Bio Generator - Create Engaging Bios - DeepTools.org",
+        title: "Twitter Bio Generator - Create Engaging Bios",
         description: "Quickly create catchy and professional Twitter bios online.",
         images: ["/assets/social.jpg"],
     },

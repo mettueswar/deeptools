@@ -1,7 +1,7 @@
 import InstagramUsernameGenerator from "./Instagram";
 
 export const metadata = {
-    title: "Instagram Username Generator | Unique IG Name Ideas - DeepTools.org",
+    title: "Instagram Username Generator | Unique IG Name Ideas",
     description:
         "Generate creative, cool, and unique Instagram usernames with our free online Instagram Username Generator at DeepTools.org.",
     keywords:
@@ -11,9 +11,9 @@ export const metadata = {
         canonical: "/instagram-username-generator",
     },
     openGraph: {
-        title: "Instagram Username Generator - Unique IG Name Ideas - DeepTools.org",
+        title: "Instagram Username Generator - Unique IG Name Ideas",
         description: "Find the perfect Instagram handle with our powerful username generator.",
-        url: "https://deeptools.org/instagram-username-generator",
+        url: "https://deeptools.org/social/instagram-username-generator",
         images: [
             {
                 url: "/assets/social.jpg",
@@ -25,7 +25,7 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Instagram Username Generator - Unique IG Name Ideas - DeepTools.org",
+        title: "Instagram Username Generator - Unique IG Name Ideas",
         description: "Discover stylish and available Instagram usernames instantly.",
         images: ["/assets/social.jpg"],
     },

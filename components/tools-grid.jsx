@@ -2,47 +2,42 @@ import React from 'react';
 import { MessageCircle, PenToolIcon, PenTool, User, Twitter, Facebook, Instagram } from 'lucide-react';
 
 const tools = [
-    {
-        name: 'SMS Bomber',
-        description: 'Send multiple SMS to a number instantly for testing purposes.',
-        icon: <MessageCircle className="w-10 h-10 text-blue-500" />,
-        link: '/sms-bomber'
-    },
+    // {
+    //     name: 'SMS Bomber',
+    //     description: 'Send multiple SMS to a number instantly for testing purposes.',
+    //     icon: <MessageCircle className="w-10 h-10 text-blue-500" />,
+    //     link: '/sms-bomber'
+    // },
     {
         name: 'AI Rewriter',
         description: 'Rewrite the paragraphs / article in your favourite style.',
         icon: <PenToolIcon className="w-10 h-10 text-red-500" />,
-        link: '/rewriter'
+        link: '/text/rewriter'
     },
-    {
-        name: 'AI Paragraph Writer',
-        description: 'Generate high-quality paragraphs using AI.',
-        icon: <PenTool className="w-10 h-10 text-green-500" />,
-        link: '/ai-paragraph-writer'
-    },
+
     {
         name: 'Instagram Bio Generator',
         description: 'Create a catchy Instagram bio in seconds.',
         icon: <User className="w-10 h-10 text-purple-500" />,
-        link: '/instagram-bio-generator'
+        link: '/social/instagram-bio-generator'
     },
     {
         name: 'Instagram Username Generator',
         description: 'Generate unlimited Instagram user names with simple tricks.',
         icon: <Instagram className="w-10 h-10 text-purple-500" />,
-        link: '/instagram-username-generator'
+        link: '/social/instagram-username-generator'
     },
     {
         name: 'Facebook Bio Generator',
         description: 'Make sure to use Facebook Bio Generator for amazing bio on social media.',
         icon: <Facebook className="w-10 h-10 text-purple-500" />,
-        link: '/facebook-bio-generator'
+        link: '/social/facebook-bio-generator'
     },
     {
         name: 'Twitter Bio Generator',
         description: 'Generate stunning biography of twitter user based on Inputs.',
         icon: <Twitter className="w-10 h-10 text-purple-500" />,
-        link: '/twitter-bio-generator'
+        link: '/social/twitter-bio-generator'
     }
 ];
 
