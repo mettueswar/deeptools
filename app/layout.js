@@ -11,7 +11,7 @@ export const metadata = {
   title: 'Free Online Tools Hub - DeepTools.org',
   description: 'One of the best free online tools hub for AI, Design Tools, image generation, text generation, and more. Explore a wide range of tools to enhance your productivity and creativity.',
   applicationName: 'DeepTools.org',
-  keywords: ['AI Tools', 'Free Online Tools', 'Image Generation', 'Text Tools', 'DeepTools', 'Productivity Tools', 'Design Tools'],
+  keywords: ['AI Tools', 'Free Online Tools', 'Image Generation', 'Text Tools', 'Writing Tools', 'Productivity Tools', 'Design Tools'],
   authors: [{ name: 'DeepTools.org Team', url: 'https://deeptools.org' }],
   creator: 'DeepTools.org',
   publisher: 'DeepTools.org',
