@@ -70,7 +70,7 @@ export default function Navbar() {
 
         setIsSearching(true);
         try {
-            const response = await fetch('tools.json');
+            const response = await fetch('/tools.json');
             const toolsData = await response.json();
 
             const filtered = toolsData.filter((tool) =>
@@ -98,7 +98,7 @@ export default function Navbar() {
 
     // Fetch tools for menu display
     useEffect(() => {
-        fetch('tools.json')
+        fetch('/tools.json')
             .then((res) => res.json())
             .then(setTools)
             .catch(console.error);
