@@ -27,7 +27,7 @@ export const metadata = {
     siteName: 'DeepTools.org',
     images: [
       {
-        url: '/og-image.png',
+        url: '/assets/social.jpg',
         width: 1200,
         height: 630,
         alt: 'DeepTools.org - Free Online Tools Hub'
@@ -40,7 +40,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Free Online Tools Hub - DeepTools.org',
     description: 'One of the best free online tools hub for AI, image generation, text generation, and more. Explore a wide range of tools to enhance your productivity and creativity.',
-    images: ['/og-image.png'],
+    images: ['/assets/social.jpg'],
     site: '@deeptools_org'
   }
 }

@@ -19,8 +19,8 @@ import { Alert, AlertDescription } from '@/components/ui/alert'
 
 // Updated models list with best free OpenRouter models
 const models = [
-    { id: 'google/gemini-2.0-flash-exp:free', name: 'Gemini 2.0 Flash', category: 'Google', free: true },
     { id: 'deepseek/deepseek-chat:free', name: 'DeepSeek Chat', category: 'DeepSeek', free: true },
+    { id: 'google/gemini-2.0-flash-exp:free', name: 'Gemini 2.0 Flash', category: 'Google', free: true },
     { id: 'qwen/qwen-2.5-72b-instruct:free', name: 'Qwen 2.5 72B', category: 'Alibaba', free: true },
     { id: 'meta-llama/llama-3.2-3b-instruct:free', name: 'Llama 3.2 3B', category: 'Meta', free: true },
     { id: 'microsoft/phi-3-medium-128k-instruct:free', name: 'Phi-3 Medium', category: 'Microsoft', free: true },
@@ -53,7 +53,7 @@ const rewriteStyles = [
 export default function RewriterPage() {
     const [originalText, setOriginalText] = useState('')
     const [rewrittenText, setRewrittenText] = useState('')
-    const [selectedModel, setSelectedModel] = useState('google/gemini-2.0-flash-exp:free')
+    const [selectedModel, setSelectedModel] = useState('deepseek/deepseek-chat:free')
     const [selectedTone, setSelectedTone] = useState('professional')
     const [selectedStyle, setSelectedStyle] = useState('improve')
     const [creativity, setCreativity] = useState([0.7])
@@ -71,7 +71,7 @@ export default function RewriterPage() {
     useEffect(() => {
         // Ensure the initial model is properly set
         if (!selectedModel) {
-            setSelectedModel('google/gemini-2.0-flash-exp:free')
+            setSelectedModel('deepseek/deepseek-chat:free')
         }
     }, [])
 
